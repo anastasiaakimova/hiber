@@ -37,9 +37,6 @@ public class Lab1 {
                         + studentyi.get(i).getImya() + "\t"
                          + studentyi.get(i).getOtchestvo() + "\t" 
                         + studentyi.get(i).getGruppyi().getNazvanie());
-            }
-            
-//               String hql1 = "select count(e) from Entity e";
-//            Query query1 = session.createQuery(hql1);    
+            }  
     }    
 }
