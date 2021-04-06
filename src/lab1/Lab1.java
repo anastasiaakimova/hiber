@@ -11,11 +11,6 @@ import java.util.logging.Logger;
 import org.hibernate.Query;
 import org.hibernate.Session;
 
-/**
- *
- * @author 18738
- */
-
 public class Lab1 {
 
     /**
