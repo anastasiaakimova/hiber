@@ -43,10 +43,13 @@ public class Lab1 {
         gruppyis.size();
 
         for (int i = 0; i <= gruppyis.size(); i++) {
-            System.out.println("\t" + gruppyis.get(i).getShifr() + "\t"
-                    + gruppyis.get(i).getNazvanie() + "\t"
-                    + studentyi.get()
-            );
+            int k = 0;
+            for(int n =1; n<=studentyi.size(); n++){
+            if(studentyi.get(n).getGruppyi().getShifr() == 1){
+            k++;
+                }
+            }
+            System.out.println(gruppyis.get(i).getNazvanie() + ":" + k); 
         }
 
         session.getTransaction().commit();
